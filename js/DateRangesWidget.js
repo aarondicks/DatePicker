@@ -250,6 +250,7 @@
                 '<div class="date-range-field form-control">' +
                 '<span class="aggregation label label-info"></span>' +
                 '<span class="main date"></span>' +
+								'<span class="comparison-divider"> &mdash; </span>'+
                 '<span class="comparison date"></span>' +
                 '<span class="caret"></span>' +
                 '</div>'
