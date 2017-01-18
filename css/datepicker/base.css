@@ -1,28 +1,9 @@
 div.datepicker {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   cursor: default;
   display: none;
 }
-.datepickerContainer {
-  
-}
 
-/* Hide border divs by default */
-.datepickerBorderT,
-.datepickerBorderB,
-.datepickerBorderL,
-.datepickerBorderR,
-.datepickerBorderTL,
-.datepickerBorderTR,
-.datepickerBorderBL,
-.datepickerBorderBR {
-  display:none;
-}
-
-.datepickerHidden {
-  display: none;
-}
 div.datepicker table {
   border-collapse:collapse;
 }
@@ -79,7 +60,7 @@ tbody.datepickerMonths td.datepickerSelected{
   background: #17384d;
 }
 div.datepicker td.datepickerSelected a, div.datepicker td.datepickerSelected2 a {
-  color:white;
+  color: white;
 }
 tbody.datepickerDays td.datepickerSelected2 {
   background: #86BE2B;
@@ -132,6 +113,7 @@ div.datepicker th a.datepickerGoPrev {
 div.datepicker th a.datepickerMonth {
   width:106px;
   display:block;
+  font-weight: 600; 
 }
 /* Only display the previous/next arrows on the first/last calendars */
 div.datepicker .datepickerFirstView th a.datepickerGoPrev,
